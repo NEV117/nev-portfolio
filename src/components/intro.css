@@ -1,0 +1,232 @@
+.intro {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20rem;
+  max-width: 1600px;
+}
+
+.container-info {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding-bottom: 10rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  max-width: 400px;
+  margin-top: 1rem /* 16px */;
+  margin-bottom: 1rem /* 16px */;
+  padding: 0.5rem;
+  border-radius: 10%;
+}
+.img2 {
+  max-width: 300px;
+  margin-top: 1rem /* 16px */;
+  margin-bottom: 1rem /* 16px */;
+  padding: 0.5rem;
+  border-radius: 10%;
+  display: none;
+}
+
+.icon-list {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  transition: transform ease-in 300ms;
+}
+.text {
+  max-width: 350px;
+  font-size: x-large;
+}
+.title {
+  font-size: 4rem;
+}
+.pfp {
+  max-width: 140px;
+}
+
+.about-container {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+}
+.about-studies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 1200px;
+  grid-template-columns: 30% 70%;
+  padding-left: 24px;
+}
+
+.studies-text {
+  text-align: left;
+}
+
+.about-container2 {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding-bottom: 4rem;
+}
+
+.about-info {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.some-columns {
+  grid-column: span 2 / span 2;
+  padding-left: 1rem;
+}
+.subs {
+  padding-top: 1rem /* 16px */;
+  padding-bottom: 1rem /* 16px */;
+}
+.long-text {
+  padding-top: 0.5rem /* 8px */;
+  padding-bottom: 0.5rem /* 8px */;
+}
+.section-title {
+  text-transform: uppercase;
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+  letter-spacing: 0.1em;
+  color: purple;
+}
+
+.intro-icon {
+  padding: 0.5rem;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.about-img {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+  transition: transform ease-in 300ms;
+}
+
+.studies-img {
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.75rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.studies-img:hover {
+  transform: scale(1.05);
+  transition: transform ease-in 300ms;
+}
+
+.studies-img2 {
+  display: none;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.75rem;
+
+  object-fit: cover;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.studies-img2:hover {
+  transform: scale(1.05);
+  transition: transform ease-in 300ms;
+}
+
+@media screen and (max-width: 1132px) {
+  .img {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-info {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .img {
+    display: none;
+  }
+  .intro {
+    padding-top: 5rem;
+  }
+  .img2 {
+    display: flex;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text {
+    max-width: 300px;
+    font-size: medium;
+  }
+
+  .about-container {
+    width: 100%;
+  }
+
+  .about-info {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    margin: auto;
+  }
+  .about-studies {
+    max-width: 396px;
+    padding-left: 56px;
+    padding-right: 2rem;
+  }
+
+  .studies-img {
+    display: none;
+  }
+  .studies-img2 {
+    display: flex;
+  }
+}

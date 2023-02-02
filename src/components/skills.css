@@ -1,0 +1,134 @@
+.skills-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 1600px;
+  padding-top: 5rem;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.skills-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+}
+.section-title {
+  text-transform: uppercase;
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+  letter-spacing: 0.1em;
+  color: purple;
+}
+.category {
+  font-size: 1.1rem;
+}
+
+.category:hover {
+  color: purple;
+}
+
+.skills-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+.skills-info-container {
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  max-width: 90%;
+}
+
+.skills-info-container:hover {
+  transform: scale(1.05);
+  transition: transform ease-in 300ms;
+}
+
+.skills-info-columns {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.intro-icon {
+  padding: 0.5rem;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.intro-icon:hover {
+  color: purple;
+}
+
+.skill-img {
+  margin: auto;
+  width: 34px;
+  height: 34px;
+}
+
+.long-text {
+  padding-top: 0.5rem /* 8px */;
+  padding-bottom: 0.5rem /* 8px */;
+}
+
+.acrod {
+  border: 2%;
+  background-color: red;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  box-shadow: none !important;
+  position: unset !important;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-container {
+    padding: 3rem;
+    display: flex;
+    text-align: left;
+  }
+  .skills-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .skills-info-columns {
+    gap: 0.3rem;
+  }
+
+  .skill-text {
+    font-size: xx-small;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .skill-text {
+    font-size: x-small;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .skills-columns {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+  }
+  .center-column {
+    justify-content: center;
+    grid-column: 2 / 3;
+  }
+
+  .skill-img {
+    margin: auto;
+    width: 64px;
+    height: 64px;
+  }
+}

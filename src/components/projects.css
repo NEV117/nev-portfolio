@@ -1,0 +1,12 @@
+.projects__container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media screen and (max-width: 768px) {
+  .projects__container {
+    display: flex;
+    flex-direction: column;
+  }
+}
