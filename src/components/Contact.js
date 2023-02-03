@@ -140,7 +140,7 @@ const Contact = () => {
                       </div>
                       <div className="app-form-group message">
                         <textarea
-                          className="app-form-control"
+                          className="app-form-control form-text-area "
                           placeholder="MESSAGE"
                           name="message"
                         />

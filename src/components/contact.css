@@ -149,7 +149,9 @@
   outline: none;
   transition: border-color 0.2s;
 }
-
+.form-text-area {
+  min-height: 80px;
+}
 .app-form-control::placeholder {
   color: #666;
 }

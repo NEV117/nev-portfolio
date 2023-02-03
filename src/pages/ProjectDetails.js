@@ -42,8 +42,10 @@ const ProjectDetails = ({ projects }) => {
               <p>{projectInfo.descriptionEn}</p>
               <div className="btn-desc-container">
                 {projectInfo.code?.map((cod, index) => (
-                  <a href={cod} target="_blank" rel="noreferrer">
-                    <button className="button-4">Code</button>
+                  <a href={cod} key={index} target="_blank" rel="noreferrer">
+                    <button key={index} className="button-4">
+                      Code
+                    </button>
                   </a>
                 ))}
 
@@ -52,8 +54,10 @@ const ProjectDetails = ({ projects }) => {
                     return null;
                   }
                   return (
-                    <a href={dem} target="_blank" rel="noreferrer">
-                      <button className="button-4">demo</button>
+                    <a href={dem} key={index} target="_blank" rel="noreferrer">
+                      <button key={index} className="button-4">
+                        Demo
+                      </button>
                     </a>
                   );
                 })}
@@ -69,7 +73,7 @@ const ProjectDetails = ({ projects }) => {
               <div className="btn-desc-container">
                 {projectInfo.code?.map((cod, index) => (
                   <a href={cod} target="_blank" rel="noreferrer">
-                    <button className="button-4">Code</button>
+                    <button className="button-4">Código</button>
                   </a>
                 ))}
 
@@ -79,7 +83,7 @@ const ProjectDetails = ({ projects }) => {
                   }
                   return (
                     <a href={dem} target="_blank" rel="noreferrer">
-                      <button className="button-4">demo</button>
+                      <button className="button-4">Demo</button>
                     </a>
                   );
                 })}

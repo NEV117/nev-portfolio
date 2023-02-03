@@ -5,9 +5,8 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 import { UilGraduationCap, UilUserCheck } from "@iconscout/react-unicons";
-import studies from "../assets/img/studies.png";
+
 import pfp from "../assets/img/pfp.jpeg";
-import mmm from "../assets/img/sera.jpg";
 
 import { LanguageContext } from "../hooks/LanguageContextProvider";
 
@@ -143,10 +142,7 @@ const Intro = () => {
 
       {/*---------------------------about studies-------------------------------------------*/}
       <div className="studies-container" id="#about">
-        <div className="about-info">
-          <div className="studies-img">
-            <img src={mmm} alt="/" />
-          </div>
+        <div className="about-info-text">
           {language === "eng" ? (
             <div className="some-columns">
               <div className="studies-text">
@@ -236,10 +232,6 @@ const Intro = () => {
               </div>
             </div>
           )}
-
-          <div className="studies-img2">
-            <img src={studies} alt="/" />
-          </div>
         </div>
       </div>
     </div>
