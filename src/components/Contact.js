@@ -90,7 +90,7 @@ const Contact = () => {
                       <p>Phone: +57 310 461 5959</p>
                       <p>e-mail: nicoescandonvarela123@gmail.com</p>
                       <p>GitHub: NEV117</p>
-                      <p>Linkdein: ____</p>
+                      <p>Linkdein: in/nicolas-escandon-076031265</p>
                     </div>
                     <div className="app-contact">
                       CONTACT INFO : +57 310 461 5959
@@ -106,7 +106,7 @@ const Contact = () => {
                       <p>Celular: +57 310 461 5959</p>
                       <p>E-mail: nicoescandonvarela123@gmail.com</p>
                       <p>GitHub: NEV117</p>
-                      <p>Linkdein: ____</p>
+                      <p>Linkdein: in/nicolas-escandon-076031265</p>
                     </div>
                     <div className="app-contact">
                       INFORMACIÓN DE CONTACTO : +57 310 461 5959
@@ -134,7 +134,7 @@ const Contact = () => {
                       <div className="app-form-group">
                         <input
                           className="app-form-control"
-                          placeholder="CONTACT REAZON"
+                          placeholder="CONTACT REASON"
                           name="reazon"
                         />
                       </div>

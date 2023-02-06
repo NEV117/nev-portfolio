@@ -4,9 +4,17 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
-import { UilGraduationCap, UilUserCheck } from "@iconscout/react-unicons";
+import {
+  UilGraduationCap,
+  UilUserCheck,
+  UilFileDownloadAlt,
+  UilFileAlt,
+} from "@iconscout/react-unicons";
 
 import pfp from "../assets/img/pfp.jpeg";
+import aboutImg from "../assets/img/pfpGit.jpeg";
+import enCV from "../assets/cvs/NicolasEscandonEnCV.pdf";
+import espCV from "../assets/cvs/NicolasEscandonEspCV.pdf";
 
 import { LanguageContext } from "../hooks/LanguageContextProvider";
 
@@ -49,7 +57,11 @@ const Intro = () => {
           </div>
 
           <div className="icon-list">
-            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/nicolas-escandon-076031265/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="icon icon-shadow">
                 <FaLinkedinIn color="black" />
               </div>
@@ -108,6 +120,43 @@ const Intro = () => {
                   development. I am ambitious and have spent the last year
                   studying complex algorithms.
                 </p>
+                <div className="downloadButton">
+                  <a
+                    href={enCV}
+                    download
+                    className="button-4"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <UilFileDownloadAlt /> Download Cv
+                  </a>
+                  <a
+                    href={enCV}
+                    className="button-4"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <UilFileAlt /> View in browser
+                  </a>
+                </div>
+                <div className="studies-alt">
+                  <h2 className="subs">
+                    Studies
+                    <span className="intro-icon">
+                      <UilGraduationCap size={30} />
+                    </span>
+                  </h2>
+                  <p className="long-text">
+                    At the moment I am in the sixth semester informatic
+                    engineering at the Autonomous University of Occident, I am
+                    excited to take the next step in my career and apply the
+                    knowledge and skills I have acquired throughout my studies
+                    to a professional setting. Through my academical journey I
+                    have recognize the following as important, complex and
+                    interesting subjects, discrete mathematics, data structures,
+                    software engineering, and database classes.
+                  </p>
+                </div>
               </div>
             ) : (
               <div>
@@ -119,23 +168,57 @@ const Intro = () => {
                   </span>
                 </h2>
                 <p className="long-text">
-                  "Soy estudiante de ingeniería informática, actualmente me
+                  Soy estudiante de ingeniería informática, actualmente me
                   ecnuentro buscando un trabajo de nivel de entrada como
                   desarrollador web. Estoy abierto tanto a posiciones de backend
                   como de frontend, pero tengo una preferencia por el desarrollo
                   backend. Soy ambicioso y he pasado el último año estudiando
-                  algoritmos complejos."
+                  algoritmos complejos.
                 </p>
+                <div className="downloadButton">
+                  <a
+                    href={espCV}
+                    download
+                    className="button-4"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <UilFileDownloadAlt /> Descargar Cv
+                  </a>
+                  <a
+                    href={espCV}
+                    className="button-4"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <UilFileAlt /> Ver en el navegador
+                  </a>
+                </div>
+
+                <div className="studies-alt">
+                  <h2 className="subs">
+                    Studies
+                    <span className="intro-icon">
+                      <UilGraduationCap size={30} />
+                    </span>
+                  </h2>
+                  <p className="long-text">
+                    Como estudiante de sexto semestre de Ingeniería Informática
+                    en la Universidad Autónoma del Occidente, estoy emocionado
+                    de dar el siguiente paso en mi carrera y aplicar los
+                    conocimientos y habilidades que he adquirido a lo largo de
+                    mis estudios a un entorno profesional. Mi pasión por la
+                    tecnología me ha impulsado a destacar en mi trabajo escolar,
+                    especialmente en materias como programación orientada a
+                    objetos, matemáticas discretas, estructuras de datos,
+                    ingeniería de software y clases de base de datos.
+                  </p>
+                </div>
               </div>
             )}
           </div>
           <div className="about-img">
-            <img
-              src={
-                "https://pandorafms.com/blog/wp-content/uploads/2018/05/what-is-an-algorithm-featured.png"
-              }
-              alt="/"
-            />
+            <img src={aboutImg} alt="/" />
           </div>
         </div>
       </div>
@@ -146,22 +229,25 @@ const Intro = () => {
           {language === "eng" ? (
             <div className="some-columns">
               <div className="studies-text">
-                <h2 className="subs">
-                  Studies
-                  <span className="intro-icon">
-                    <UilGraduationCap size={30} />
-                  </span>
-                </h2>
-                <p className="long-text">
-                  At the moment I am in the sixth semester informatic
-                  engineering at the Autonomous University of Occident, I am
-                  excited to take the next step in my career and apply the
-                  knowledge and skills I have acquired throughout my studies to
-                  a professional setting. Through my academical journey I have
-                  recognize the following as important, complex and interesting
-                  subjects, discrete mathematics, data structures, software
-                  engineering, and database classes.
-                </p>
+                <div className="studies-ft">
+                  <h2 className="subs">
+                    Studies
+                    <span className="intro-icon">
+                      <UilGraduationCap size={30} />
+                    </span>
+                  </h2>
+                  <p className="long-text">
+                    At the moment I am in the sixth semester informatic
+                    engineering at the Autonomous University of Occident, I am
+                    excited to take the next step in my career and apply the
+                    knowledge and skills I have acquired throughout my studies
+                    to a professional setting. Through my academical journey I
+                    have recognize the following as important, complex and
+                    interesting subjects, discrete mathematics, data structures,
+                    software engineering, and database classes.
+                  </p>
+                </div>
+
                 <p className="long-text">
                   In addition to my formal education, I have taken it upon
                   myself to study web development independently. I have taught
@@ -189,23 +275,25 @@ const Intro = () => {
           ) : (
             <div className="some-columns">
               <div className="studies-text">
-                <h2 className="subs">
-                  Estudios
-                  <span className="intro-icon">
-                    <UilGraduationCap size={30} />
-                  </span>
-                </h2>
-                <p className="long-text">
-                  Como estudiante de sexto semestre de Ingeniería Informática en
-                  la Universidad Autónoma del Occidente, estoy emocionado de dar
-                  el siguiente paso en mi carrera y aplicar los conocimientos y
-                  habilidades que he adquirido a lo largo de mis estudios a un
-                  entorno profesional. Mi pasión por la tecnología me ha
-                  impulsado a destacar en mi trabajo escolar, especialmente en
-                  materias como programación orientada a objetos, matemáticas
-                  discretas, estructuras de datos, ingeniería de software y
-                  clases de base de datos.
-                </p>
+                <div className="studies-ft">
+                  <h2 className="subs">
+                    Estudios
+                    <span className="intro-icon">
+                      <UilGraduationCap size={30} />
+                    </span>
+                  </h2>
+                  <p className="long-text">
+                    Como estudiante de sexto semestre de Ingeniería Informática
+                    en la Universidad Autónoma del Occidente, estoy emocionado
+                    de dar el siguiente paso en mi carrera y aplicar los
+                    conocimientos y habilidades que he adquirido a lo largo de
+                    mis estudios a un entorno profesional. Mi pasión por la
+                    tecnología me ha impulsado a destacar en mi trabajo escolar,
+                    especialmente en materias como programación orientada a
+                    objetos, matemáticas discretas, estructuras de datos,
+                    ingeniería de software y clases de base de datos.
+                  </p>
+                </div>
                 <p className="long-text">
                   Además de mi educación formal, he tomado la iniciativa de
                   estudiar desarrollo web de manera independiente. Me he

@@ -17,3 +17,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--text-color-light);
 }
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  box-shadow: none !important;
+  position: unset !important;
+}

@@ -15,11 +15,13 @@ const ProjectDetails = ({ projects }) => {
   function getProjectInfo(name) {
     return projects.find((project) => project.title === name);
   }
-
+  /* useEffect(() => {
+    window.scrollTo(0, 40);
+  }, []);
+ */
   return (
     <div>
       <Navbar />
-
       <div className="details-wraper">
         <div className="details-img-container">
           <div className="details-img-overlay" />
@@ -62,6 +64,14 @@ const ProjectDetails = ({ projects }) => {
                   );
                 })}
               </div>
+              <div>
+                <Link to="/#projects">
+                  <div className="left-arrow-text">
+                    <UilArrowLeft className="left-arrow" />
+                    <p className="">Back</p>
+                  </div>
+                </Link>
+              </div>
             </div>
           ) : (
             <div className="left-side">
@@ -88,6 +98,14 @@ const ProjectDetails = ({ projects }) => {
                   );
                 })}
               </div>
+              <div>
+                <Link to="/#projects">
+                  <div className="left-arrow-text">
+                    <UilArrowLeft className="left-arrow" />
+                    <p className="">Atrás</p>
+                  </div>
+                </Link>
+              </div>
             </div>
           )}
 
@@ -108,26 +126,6 @@ const ProjectDetails = ({ projects }) => {
               </div>
             </div>
           </div>
-
-          {language === "eng" ? (
-            <div>
-              <Link to="/#projects">
-                <div className="left-arrow-text">
-                  <UilArrowLeft className="left-arrow" />
-                  <p className="">Back</p>
-                </div>
-              </Link>
-            </div>
-          ) : (
-            <div>
-              <Link to="/#projects">
-                <div className="left-arrow-text">
-                  <UilArrowLeft className="left-arrow" />
-                  <p className="">Atrás</p>
-                </div>
-              </Link>
-            </div>
-          )}
         </div>
       </div>
     </div>

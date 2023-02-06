@@ -124,6 +124,19 @@
   vertical-align: middle;
 }
 
+.downloadButton {
+  display: flex;
+  padding-top: 2rem;
+  gap: 1rem;
+}
+.downloadButton .button-4 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.downloadButton .button-4 .uil-file-download {
+  margin-right: 8px;
+}
 .about-img {
   display: flex;
   padding: 1rem;
@@ -132,8 +145,11 @@
   width: 100%;
   height: auto;
   border-radius: 0.75rem;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.about-img img {
+  border-radius: 0.75rem;
 }
 
 .about-img:hover {
@@ -162,7 +178,12 @@
 .about-info-text {
   padding: 0.5rem;
 }
-
+.studies-alt {
+  padding-top: 0.5rem;
+}
+.studies-ft {
+  display: none;
+}
 @media screen and (max-width: 1132px) {
   .img {
     max-width: 300px;
@@ -192,6 +213,20 @@
   .text {
     max-width: 300px;
     font-size: medium;
+  }
+  .downloadButton {
+    display: flex;
+    flex-direction: column;
+  }
+  .downloadButton .button-4 {
+    max-width: fit-content;
+  }
+  .studies-alt {
+    display: none;
+  }
+  .studies-ft {
+    display: flex;
+    flex-direction: column;
   }
 
   .about-container {

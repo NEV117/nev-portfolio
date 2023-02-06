@@ -10,9 +10,8 @@ const projects = [
     code: ["https://github.com/NEV117/Quiz-App"],
     img: "https://res.cloudinary.com/dmbtxakcn/image/upload/v1675126511/portfolioProjects/quizApp_vuaauo.jpg",
   },
-
-  {
-    title: "portfolio-dummy",
+  /* {
+    title: "Portfolio-dummy",
     descriptionEn:
       "One of the projects I worked on where I learned a bit about how NextJs works, while I was observing how a web portfolio can be built. The styles in this project are with tailwind css and it was one of the first projects I hosted on Vercel.",
     descriptionEsp:
@@ -21,7 +20,7 @@ const projects = [
     demo: ["https://portafolio-dummy.vercel.app/"],
     code: ["https://github.com/NEV117/portafolio-dummy"],
     img: "https://res.cloudinary.com/dmbtxakcn/image/upload/v1675360735/portfolioProjects/porftolioDummy_fjgeat.jpg",
-  },
+  }, */
 
   {
     title: "Css-Cube",
@@ -75,6 +74,27 @@ const projects = [
     demo: [""],
     code: ["https://github.com/NEV117/registros-web"],
     img: "https://res.cloudinary.com/dmbtxakcn/image/upload/v1675128919/portfolioProjects/SerialScan_jrmefb.jpg",
+  },
+
+  {
+    title: "Booking-App",
+    descriptionEn:
+      "A booking app made in react using the MERN Stack where i learn a lot about the server side of the application (routing, apis, fetching data, models and controllers in NodeJs), it is also important to mention that in this app also includes an admin only interface, but the code uploaded references the server side of the aplication. ",
+    descriptionEsp:
+      "Una aplicación de reserva hecha en reacción usando MERN Stack donde aprendo mucho sobre el lado del servidor de la aplicación (enrutamiento, apis, obtención de datos, modelos y controladores en NodeJs), también es importante mencionar que en esta aplicación también incluye un interfaz de solo administrador, pero el código cargado hace referencia al lado del servidor de la aplicación.",
+    tecnologies: [
+      "React",
+      "JSX",
+      "Css",
+      "JavaScript",
+      "Node",
+      "Express",
+      "Mongo",
+      "Cloudinary",
+    ],
+    demo: [""],
+    code: ["https://github.com/NEV117/booking-app"],
+    img: "https://res.cloudinary.com/dmbtxakcn/image/upload/v1675642951/portfolioProjects/bookingApp_nof362.jpg",
   },
 
   {
