@@ -197,21 +197,21 @@ const Intro = () => {
 
                 <div className="studies-alt">
                   <h2 className="subs">
-                    Studies
+                    Estudios
                     <span className="intro-icon">
                       <UilGraduationCap size={30} />
                     </span>
                   </h2>
                   <p className="long-text">
-                    Como estudiante de sexto semestre de Ingeniería Informática
-                    en la Universidad Autónoma del Occidente, estoy emocionado
-                    de dar el siguiente paso en mi carrera y aplicar los
-                    conocimientos y habilidades que he adquirido a lo largo de
-                    mis estudios a un entorno profesional. Mi pasión por la
-                    tecnología me ha impulsado a destacar en mi trabajo escolar,
-                    especialmente en materias como programación orientada a
-                    objetos, matemáticas discretas, estructuras de datos,
-                    ingeniería de software y clases de base de datos.
+                    Actualmente estoy en el sexto semestre de ingeniería
+                    informática en la Universidad Autónoma de Occidente, estoy
+                    emocionado de dar el siguiente paso en mi carrera y aplicar
+                    los conocimientos junto con las habilidades que he adquirido
+                    a lo largo de mis estudios a un entorno profesional. A lo
+                    largo de mi trayectoria académica, he reconocido las
+                    siguientes materias importantes, complejas e interesantes:
+                    matemáticas discretas, estructuras de datos, ingeniería de
+                    software y clases de bases de datos.
                   </p>
                 </div>
               </div>
@@ -283,39 +283,39 @@ const Intro = () => {
                     </span>
                   </h2>
                   <p className="long-text">
-                    Como estudiante de sexto semestre de Ingeniería Informática
-                    en la Universidad Autónoma del Occidente, estoy emocionado
-                    de dar el siguiente paso en mi carrera y aplicar los
-                    conocimientos y habilidades que he adquirido a lo largo de
-                    mis estudios a un entorno profesional. Mi pasión por la
-                    tecnología me ha impulsado a destacar en mi trabajo escolar,
-                    especialmente en materias como programación orientada a
-                    objetos, matemáticas discretas, estructuras de datos,
-                    ingeniería de software y clases de base de datos.
+                    Actualmente estoy en el sexto semestre de ingeniería
+                    informática en la Universidad Autónoma de Occidente, estoy
+                    emocionado de dar el siguiente paso en mi carrera y aplicar
+                    los conocimientos junto con las habilidades que he adquirido
+                    a lo largo de mis estudios a un entorno profesional. A lo
+                    largo de mi trayectoria académica, he reconocido las
+                    siguientes materias importantes, complejas e interesantes:
+                    matemáticas discretas, estructuras de datos, ingeniería de
+                    software y clases de bases de datos.
                   </p>
                 </div>
                 <p className="long-text">
                   Además de mi educación formal, he tomado la iniciativa de
                   estudiar desarrollo web de manera independiente. Me he
-                  enseñado los conceptos básicos de HTML, CSS y JavaScript y he
-                  progresado hacia tecnologías más avanzadas como ReactJS,
-                  NextJS y el Stack MERN. Este autoestudio me ha permitido
-                  comenzar a crear proyectos que espero presentar a potenciales
-                  empleadores.
+                  enseñado los conceptos básicos de HTML, CSS y JavaScript
+                  posteriomente he progresado hacia tecnologías más avanzadas
+                  como ReactJS, NextJS y el Stack MERN. Este autoestudio me ha
+                  permitido comenzar a crear proyectos que espero presentar a
+                  potenciales empleadores.
                 </p>
                 <p className="long-text">
                   Me siento especialmente atraído por el campo del desarrollo
                   web debido a la naturaleza en constante evolución de la
-                  industria y la oportunidad de trabajar en proyectos
+                  industria ademas de la oportunidad de trabajar en proyectos
                   desafiantes y dinámicos. Me interesa especialmente el
                   desarrollo backend y estoy ansioso por aprender más sobre
-                  tecnologías del lado del servidor y bases de datos.
+                  tecnologías del lado del servidor.
                 </p>
                 <p className="long-text">
                   Me considero ambicioso y estoy determinado a aprovechar al
-                  máximo esta oportunidad y crecer como profesional. Confío en
-                  que con mis habilidades y actitud puedo ser un activo valioso
-                  para cualquier empresa y espero oír de usted pronto.
+                  máximo de cualquier oportunidad que se me presente para crecer
+                  como profesional. Confío en que con mis habilidades junto con
+                  mi actitud puedo ser un activo valioso para cualquier empresa.
                 </p>
               </div>
             </div>
