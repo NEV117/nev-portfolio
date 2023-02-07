@@ -130,14 +130,16 @@ const Intro = () => {
                   >
                     <UilFileDownloadAlt /> Download Cv
                   </a>
-                  <a
-                    href={enCV}
-                    className="button-4"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <UilFileAlt /> View in browser
-                  </a>
+                  <div className="hide_on_mobile">
+                    <a
+                      href={enCV}
+                      className="button-4"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <UilFileAlt /> View in browser
+                    </a>
+                  </div>
                 </div>
                 <div className="studies-alt">
                   <h2 className="subs">
@@ -185,14 +187,16 @@ const Intro = () => {
                   >
                     <UilFileDownloadAlt /> Descargar Cv
                   </a>
-                  <a
-                    href={espCV}
-                    className="button-4"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <UilFileAlt /> Ver en el navegador
-                  </a>
+                  <div className="hide_on_mobile">
+                    <a
+                      href={espCV}
+                      className="button-4 "
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <UilFileAlt /> Ver en el navegador
+                    </a>
+                  </div>
                 </div>
 
                 <div className="studies-alt">

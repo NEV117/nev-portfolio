@@ -198,6 +198,9 @@
   .about-info-text {
     padding: 2rem;
   }
+  .hide_on_mobile {
+    display: none;
+  }
   .img {
     display: none;
   }
