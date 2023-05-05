@@ -144,6 +144,7 @@
   align-items: center;
   width: 100%;
   height: auto;
+  max-height: 450px;
   border-radius: 0.75rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -194,6 +195,10 @@
   .container-info {
     display: grid;
     grid-template-columns: 100%;
+  }
+  .about-img {
+    height: auto;
+    max-height: 590px;
   }
   .about-info-text {
     padding: 2rem;

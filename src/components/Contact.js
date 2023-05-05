@@ -88,9 +88,9 @@ const Contact = () => {
                     <div className="contact-info">
                       <p>Location: Cali Colombia</p>
                       <p>Phone: +57 310 461 5959</p>
-                      <p>e-mail: nicoescandonvarela123@gmail.com</p>
+                      <p>E-mail: nicoescandonvarela123@gmail.com</p>
                       <p>GitHub: NEV117</p>
-                      <p>Linkdein: in/nicolas-escandon-076031265</p>
+                      <p>Linkdein: in/nicolas-escandon/</p>
                     </div>
                     <div className="app-contact">
                       CONTACT INFO : +57 310 461 5959
@@ -106,7 +106,7 @@ const Contact = () => {
                       <p>Celular: +57 310 461 5959</p>
                       <p>E-mail: nicoescandonvarela123@gmail.com</p>
                       <p>GitHub: NEV117</p>
-                      <p>Linkdein: in/nicolas-escandon-076031265</p>
+                      <p>Linkdein: in/nicolas-escandon/</p>
                     </div>
                     <div className="app-contact">
                       INFORMACIÓN DE CONTACTO : +57 310 461 5959

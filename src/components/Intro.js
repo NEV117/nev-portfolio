@@ -108,17 +108,17 @@ const Intro = () => {
               <div>
                 <p className="section-title">About</p>
                 <h2 className="subs">
-                  Who im i
+                  Who am I?
                   <span className="intro-icon">
                     <UilUserCheck size={30} />
                   </span>
                 </h2>
                 <p className="long-text">
-                  I'm a informatic engineering student, currently seeking an
+                  I am an informatics engineering student currently seeking an
                   entry-level job as a web developer. I am open to both backend
-                  and frontend positions, but I have a preference for backend
-                  development. I am ambitious and have spent the last year
-                  studying complex algorithms.
+                  and frontend positions, although I have a preference for
+                  backend development. I am ambitious and have spent the last
+                  year studying complex algorithms.
                 </p>
                 <div className="downloadButton">
                   <a
@@ -241,14 +241,14 @@ const Intro = () => {
                     </span>
                   </h2>
                   <p className="long-text">
-                    At the moment I am in the sixth semester informatic
-                    engineering at the Autonomous University of Occident, I am
-                    excited to take the next step in my career and apply the
-                    knowledge and skills I have acquired throughout my studies
-                    to a professional setting. Through my academical journey I
-                    have recognize the following as important, complex and
-                    interesting subjects, discrete mathematics, data structures,
-                    software engineering, and database classes.
+                    Currently, I am in the sixth semester of my Informatics
+                    Engineering program at the Autonomous University of
+                    Occident. I am excited to take the next step in my career
+                    and apply the knowledge and skills I have acquired
+                    throughout my studies to a professional setting. Through my
+                    academic journey, I have recognized discrete mathematics,
+                    data structures, software engineering, and database classes
+                    as important, complex, and interesting subjects.
                   </p>
                 </div>
 
@@ -257,7 +257,7 @@ const Intro = () => {
                   myself to study web development independently. I have taught
                   myself the basics of HTML, CSS, and JavaScript and have
                   progressed to more advanced technologies such as ReactJS,
-                  NextJS, and the MERN stack. This self-study has allowed me to
+                  NextJS, and the MERN stack. This self-study has enabled me to
                   start creating projects that I hope to showcase to potential
                   employers.
                 </p>
@@ -269,10 +269,11 @@ const Intro = () => {
                   learn more about server-side technologies and databases.
                 </p>
                 <p className="long-text">
-                  I consider myself ambitious and I am determined to make the
+                  I consider myself ambitious, and I am determined to make the
                   most of this opportunity and grow as a professional. I am
-                  confident that with my skills and attitude I can be a valuable
-                  asset to any company and I hope to hear from you soon.
+                  confident that with my skills and attitude, I can be a
+                  valuable asset to any company, and I hope to hear from you
+                  soon.
                 </p>
               </div>
             </div>
